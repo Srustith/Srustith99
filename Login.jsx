@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -12,9 +12,9 @@ class LoginPage extends React.Component {
         this.props.logout();
 
         this.state = {
-            username: '',
-            password: '',
-            submitted: false
+            username: 'hruday@gmail.com',
+            password: 'hruday123',
+            submitted: true
         };
 
         this.handleChange = this.handleChange.bind(this);
